@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(234, 243, 255);
+    font-family: Arial;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(0, 109, 129)
+}
+
+p {
+    font-size: 24px;
+    color: gray;
+}
+
+p a {
+    color: rgb(92, 203, 223);
+}
+
+.row {
+    align-items: center;
+    width: 90%;
+    padding: 3%;
+}
+
+img.octocat {
+    height: 200px;
+    width: 20vw;
+    object-fit: contain;
+    background-color: rgb(255, 255, 255);
+}
+
+.first-row {
+    background-color: rgb(92, 203, 223);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.second-row {
+    background-color: rgb(213, 165, 198);
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.third-row {
+    background-color: rgb(252, 252, 255);
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+
+}
