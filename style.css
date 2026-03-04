@@ -19,13 +19,12 @@ p a {
 
 .row {
     align-items: center;
-    width: 90%;
-    padding: 3%;
+    padding:10px;
 }
 
 img.octocat {
     height: 200px;
-    width: 20vw;
+    width: 200px;
     object-fit: contain;
     background-color: rgb(255, 255, 255);
 }
@@ -39,15 +38,15 @@ img.octocat {
 
 .second-row {
     background-color: rgb(213, 165, 198);
-    margin-top: 2%;
+    margin-top:20px;
     display: flex;
     justify-content: center;
-    gap: 10%;
+    gap: 60px;
 }
 
 .third-row {
     background-color: rgb(252, 252, 255);
-    margin-top: 2%;
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
 
